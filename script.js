@@ -8,18 +8,10 @@ var experience = [
 
 // Projects: copy one { } block to add a project. image = screenshot in images folder (optional).
 var projects = [
-  { icon: "📊", title: "Sales Data Analysis Dashboard",
-    desc: "Interactive Power BI dashboard built after cleaning, transforming and modelling sales data.",
-    tools: ["Power BI", "Excel", "DAX"], image: "images/project1.png", github: "[GitHub URL]", demo: "" },
-  { icon: "🛒", title: "E-Commerce Data Analysis",
-    desc: "SQL analysis using JOINs, GROUP BY, subqueries and window functions to answer business questions.",
-    tools: ["SQL", "MySQL", "Window Functions"], image: "images/project2.png", github: "[GitHub URL]", demo: "" },
-  { icon: "📈", title: "Customer/Sales Data Analysis",
-    desc: "Data cleaning, exploratory analysis, visualization and trend analysis in Python.",
-    tools: ["Python", "Pandas", "NumPy", "Matplotlib"], image: "images/project3.png", github: "[GitHub URL]", demo: "" },
-  { icon: "🔍", title: "Fake News Detection System",
-    desc: "Machine learning text classifier with a simple web interface that predicts whether news is fake.",
-    tools: ["Python", "Machine Learning", "HTML/CSS/JS", "MySQL"], image: "images/project4.png", github: "[GitHub URL]", demo: "" }
+  {  icon: "📊", title: "E-Commerce Express Dashboard",
+  desc: "Interactive Power BI dashboard built after cleaning, transforming and modelling sales data.",
+  tools: ["Power BI", "Excel", "DAX"], image: "images/Screenshot%202026-10-03%20003925.png", github: "https://github.com/sakshinarale", demo: "" },
+
 ];
 
 var skills = [
@@ -33,23 +25,21 @@ var skills = [
 
 // Proficiency bars: level 0-100. Please set honest values.
 var levels = [
-  { name: "SQL", level: 60 }, { name: "Excel", level: 60 }, { name: "Power BI", level: 60 },
-  { name: "Python", level: 60 }, { name: "Statistics", level: 60 }, { name: "Tableau", level: 40 }
+  { name: "SQL", level: 80 }, { name: "Excel", level: 70 }, { name: "Power BI", level: 85 },
+  { name: "Python", level: 60 }, { name: "Statistics", level: 60 }, { name: "Tableau", level: 60 }
 ];
 
 var softSkills = [];   // e.g. ["Communication", "Teamwork"]; [] hides it
 
 var certs = [
-  { name: "[Certificate name]", by: "[Issuer]", link: "" },
-  { name: "[Certificate name]", by: "[Issuer]", link: "" },
-  { name: "[Certificate name]", by: "[Issuer]", link: "" }
+  { name: "30 Days Power BI Micro Course", by: "SkillCourse · 22 Jul 2026", link: "images/certificate1.png" }
 ];
-
+  
 var contact = [
   { label: "Email", value: "naralesakshi2006@gmail.com", href: "mailto:naralesakshi2006@gmail.com" },
   { label: "LinkedIn", value: "linkedin.com/in/sakshi-narale-2b8202322", href: "https://www.linkedin.com/in/sakshi-narale-2b8202322" },
   { label: "GitHub", value: "github.com/sakshinarale", href: "https://github.com/sakshinarale" },
-  { label: "Location", value: "[City, State, Country]", href: "" }
+  { label: "Location", value: "Pune, Maharashtra, India", href: "https://www.google.com/maps/search/?api=1&query=Pune" }
 ];
 
 // Words that rotate in the hero line: "I turn data into ..."
