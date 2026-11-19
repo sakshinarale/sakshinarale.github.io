@@ -32,7 +32,17 @@ var levels = [
 var softSkills = [];   // e.g. ["Communication", "Teamwork"]; [] hides it
 
 var certs = [
-  { name: "30 Days Power BI Micro Course", by: "SkillCourse · 22 Jul 2026", link: "images/certificate1.png" }
+  { name: "30 Days Power BI Micro Course", by: "SkillCourse · 22 Jul 2026", link: "images/certificate1.png" },
+   {
+    name: "Power BI Data Storytelling",
+    by: "Databuzz Private Limited · October 2026",
+    link: "certificates/Databuzz certificate.pdf"
+  },
+  {
+    name: "AI Tools & Claude Workshop",
+    by: "be10x · 13 October 2026",
+    link: "certificates/Certificate.pdf"
+  }
 ];
   
 var contact = [
